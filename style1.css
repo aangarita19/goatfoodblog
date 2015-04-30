@@ -1,0 +1,65 @@
+div img {
+	display: block;
+	margin: auto;
+}
+
+.header {
+	background-image: url('../images/foodphotos/hominy.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.blognav {
+	background-color: black;
+}
+#jumbobg {
+	background-image: url('../images/foodphotos/beans.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-color: white;
+	min-height: 500px;
+}
+
+.article {
+	text-align: left;
+	width: 100%;
+}
+
+.blogTitle {
+	text-align: left;
+	border-bottom: 2px double lightgrey;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+.blogDate {
+	text-align: right;
+	color: darkgrey;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+.sidebar_tile{
+	margin: 50px;
+	padding: 10px;
+	border-bottom: 2px solid grey;
+	top:50%
+	bottom:0;
+}
+.footernav{
+	text-align: center;
+	border; 2px solid black;
+	margin: 0px;
+	padding: 0px;
+}
+
+.footernav a{
+	color: darkgrey;
+	margin: 0px;
+	padding: 0px;
+	
+}
+.footernav a:hover{
+	color: darkred;
+	margin: 0px;
+	padding: 0px;
+	
+}
